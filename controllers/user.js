@@ -12,7 +12,7 @@ const usuariosPost = (req, res = response) => {
   const { nombre, edad } = req.body
 
   res.json({
-    nombre,
+    nombre: "Michael Jackson",
     edad 
   });
 }
